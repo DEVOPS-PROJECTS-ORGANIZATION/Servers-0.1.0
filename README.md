@@ -29,6 +29,7 @@ Position yourself in the folder where dockerfile is
 cd DOCKERFILE_PATH
 ```
 Request:
+```GET http://localhost:9000/api/server```  
 ```
 http://localhost:9000/api/server
 ```
