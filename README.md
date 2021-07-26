@@ -32,6 +32,14 @@ Request:
 ```
 http://localhost:9000/api/server
 ```
+Response:
+```json
+[
+{"id":0,"hostname":"database","domain":"db.aws.com","os":"LINUX"},
+{"id":1,"hostname":"sftp","domain":"sftp.aws.com","os":"LINUX"},
+{"id":2,"hostname":"datalake","domain":"s3.aws.com","os":"LINUX"}
+]
+```
 **Stop Docker Daemon:** After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
 ```
 Task bar → Docker’s whale icon → right click → Quit Docker Desktop
