@@ -48,6 +48,10 @@ Response:
 {"id":2,"hostname":"datalake","domain":"s3.aws.com","os":"LINUX"}
 ]
 ```
+Creates and runs Docker containers (Interactive mode; Container port forwarding)
+```
+docker run -it --name servers-0.1.0 -p 9000:8080 danijelradakovic/servers:0.1.0
+```
 **Stop Docker Daemon:** After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
 ```
 Task bar → Docker’s whale icon → right click → Quit Docker Desktop
