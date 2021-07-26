@@ -18,3 +18,6 @@ In order to build **appServerRuntime** image run the following command (Dockerfi
 ```shell
 DOCKER_BUILDKIT=1 docker build --target appServerRuntime -t danijelradakovic/servers:0.1.0-web .
 ```
+
+## appServerRuntime Instructions (REST API)
+## appWebServerRuntime Instructions (REST API + Angular frontend)
