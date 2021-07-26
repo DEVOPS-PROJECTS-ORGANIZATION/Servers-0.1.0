@@ -58,8 +58,12 @@ Response:
 {"id":2,"hostname":"datalake","domain":"s3.aws.com","os":"LINUX"}
 ]
 ```
-**Stop Docker Daemon:** After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
-```
-Task bar → Docker’s whale icon → right click → Quit Docker Desktop
-```
 ## appWebServerRuntime Instructions (Spring Boot REST API + Angular front-end)
+**Start Docker Daemon:** If you're using Docker for Windows, Then simply start the desktop app installed in:
+```
+C:\Program Files\Docker\Docker\Docker Desktop.exe
+```
+Position yourself in the folder where dockerfile is
+```
+cd DOCKERFILE_PATH
+```
