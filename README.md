@@ -28,6 +28,10 @@ Position yourself in the folder where dockerfile is
 ```
 cd DOCKERFILE_PATH
 ```
+Request:
+```
+http://localhost:9000/api/server
+```
 **Stop Docker Daemon:** After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
 ```
 Task bar → Docker’s whale icon → right click → Quit Docker Desktop
