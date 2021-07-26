@@ -35,6 +35,16 @@ docker image build --target DOCKERFILE_STAGE -t DOCKER_HUB_USERNAME/IMAGE_NAME:V
 ```
 docker image build --target appServerRuntime -t danijelradakovic/servers:0.1.0 .
 ```
+Creates and runs Docker containers (Interactive mode; Container port forwarding)
+```
+docker run -MODE --name CONTAINER_NAME -p HOST_PORT:CONTAINER_PORT IMAGE_NAME
+```
+```
+docker run -MODE --name CONTAINER_NAME -p PUBLISHED_PORT:EXPOSED_PORT IMAGE_NAME
+```
+```
+docker run -it --name servers-0.1.0 -p 9000:8080 danijelradakovic/servers:0.1.0
+```
 Request:
 ```GET http://localhost:9000/api/server```  
 ```
@@ -47,10 +57,6 @@ Response:
 {"id":1,"hostname":"sftp","domain":"sftp.aws.com","os":"LINUX"},
 {"id":2,"hostname":"datalake","domain":"s3.aws.com","os":"LINUX"}
 ]
-```
-Creates and runs Docker containers (Interactive mode; Container port forwarding)
-```
-docker run -it --name servers-0.1.0 -p 9000:8080 danijelradakovic/servers:0.1.0
 ```
 **Stop Docker Daemon:** After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
 ```
