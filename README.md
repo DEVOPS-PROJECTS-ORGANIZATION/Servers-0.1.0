@@ -24,7 +24,9 @@ DOCKER_BUILDKIT=1 docker build --target appServerRuntime -t danijelradakovic/ser
 ```
 C:\Program Files\Docker\Docker\Docker Desktop.exe
 ```
+Position yourself in the folder where dockerfile is
 ```
+cd DOCKERFILE_PATH
 ```
 **Stop Docker Daemon:** After you right clicking Docker’s whale icon in task bar. You’ll see ‘Quit Docker Desktop’ item in list.
 ```
