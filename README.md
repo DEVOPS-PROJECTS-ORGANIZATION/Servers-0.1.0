@@ -28,6 +28,13 @@ Position yourself in the folder where dockerfile is
 ```
 cd DOCKERFILE_PATH
 ```
+Create Docker image from Dockerfile with Docker BuildKit (**Generating .jar binary file**; .jar file is not already generated, so we need to map source code to .jar file)
+```
+docker image build --target DOCKERFILE_STAGE -t DOCKER_HUB_USERNAME/IMAGE_NAME:VERSION DOCKERFILE_PATH
+```
+```
+docker image build --target appServerRuntime -t danijelradakovic/servers:0.1.0 .
+```
 Request:
 ```GET http://localhost:9000/api/server```  
 ```
