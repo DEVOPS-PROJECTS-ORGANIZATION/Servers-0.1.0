@@ -8,16 +8,16 @@ Dockerfile contains two runtime stages:
 
 [BuildKit](https://github.com/moby/buildkit) is used for building container images.
 
-In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working direcotry):
+In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working directory):
 
 ```shell
 DOCKER_BUILDKIT=1 docker build --target appServerRuntime -t danijelradakovic/servers:0.1.0 .
 ```
 
-In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working direcotry):
+In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working directory):
 ```shell
 DOCKER_BUILDKIT=1 docker build --target appServerRuntime -t danijelradakovic/servers:0.1.0-web .
 ```
 
-## appServerRuntime Instructions (REST API)
-## appWebServerRuntime Instructions (REST API + Angular frontend)
+## appServerRuntime Instructions (Spring Boot REST API)
+## appWebServerRuntime Instructions (Spring Boot REST API + Angular front-end)
