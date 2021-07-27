@@ -14,9 +14,9 @@ In order to build **appServerRuntime** image run the following command (Dockerfi
 DOCKER_BUILDKIT=1 docker build --target appServerRuntime -t danijelradakovic/servers:0.1.0 .
 ```
 
-In order to build **appServerRuntime** image run the following command (Dockerfile has to be in current working directory):
+In order to build **appWebServerRuntime** image run the following command (Dockerfile has to be in current working directory):
 ```shell
-DOCKER_BUILDKIT=1 docker build --target appServerRuntime -t danijelradakovic/servers:0.1.0-web .
+DOCKER_BUILDKIT=1 docker build --target appWebServerRuntime -t danijelradakovic/servers:0.1.0-web .
 ```
 
 ## appServerRuntime Instructions (Spring Boot REST API)
